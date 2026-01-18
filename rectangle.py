@@ -7,8 +7,8 @@ import math
 
 recLength= float(input("Enter the length of the rectangle: "))
 recWidth= float(input("Enter the width of the rectangle: "))
-print(recLength)
-print(recWidth)
+#print(recLength)
+#print(recWidth)
 perimeter= 2*(recLength+recWidth)
 print("The perimeter of a rectangle is:",perimeter)
 
