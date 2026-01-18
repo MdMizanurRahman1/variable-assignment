@@ -9,7 +9,7 @@
 
 talent= float(input("Enter the talent: "))
 pound= float(input("Enter the pound: "))
-lots= int(input("Enter the number of lots: "))
+lots= float(input("Enter the number of lots: "))
 
 #then we can convert everything to grams
 talent_grams=talent*20*32*13.3
@@ -22,6 +22,11 @@ lots_grams=lots*13.3
 
 total_grams=talent_grams+pound_grams+lots_grams
 print("The total gram is:",total_grams)
+
+kilograms=int(total_grams//1000)
+print("The kilogram is:",kilograms)
+grams= (total_grams%1000)
+print(f"The gram is: {grams:.2f}")
 
 
 
